@@ -1,0 +1,132 @@
+
+/* */
+@font-face {
+  font-family: "Open Sans-Bold";
+  src: url("/fonts/transfonter.org-20220807-181709/OpenSans-Bold.woff2") format("woff2"), url("/fonts/transfonter.org-20220807-181709/OpenSans-Bold.woff") format("woff");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+font-family: "Open Sans";
+src: url("/fonts/transfonter.org-20220807-181709/OpenSans-Regular.woff2") format("woff2"), url("/fonts/transfonter.org-20220807-181709/OpenSans-Regular.woff") format("woff");
+font-weight: normal;
+font-size: normal;
+}
+
+@font-face {
+  font-family: "Open Sans-Semi";
+  src: url("/fonts/transfonter.org-20220807-181709/OpenSans-SemiBold.woff2") format("woff2"), url("/fonts/transfonter.org-20220807-181709/OpenSans-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-size: normal;
+}
+/* */
+
+/*must have*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+address {
+  font-style: normal;
+}
+h1 {
+  font-size: 72px;
+  font-family: "Open Sans-Bold"; Arial, Helvetiva, sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "Open Sans-Bold"; Arial, Helvetiva, sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Open Sans-Bold"; Arial, Helvetiva, sans-serif;
+}
+
+/*must have*/
+
+body {
+  font-family: "Opens Sans", Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #001821;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+.container {
+  margin: 0 auto;
+  width: 1445px;
+}
+.header {
+  height: 120px;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 36px;
+}
+
+.menu {
+  position: absolute;
+top: 65px;
+left: 250px;
+}
+
+.contacts {
+  position: absolute;
+top: 48px;
+left: 0px;
+font-style: normal ;
+}
+
+.menu__item {
+  display: inline-block ;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #F5170E;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
