@@ -68,7 +68,7 @@ button {
 }
 
 .main-page-wrapper {
-  background: url("./images/1.png") center top no-repeat,
+  background: url("../../images/1.png") center top no-repeat,
     url("./images/2.png") right 60px bottom 200px no-repeat;
 }
 
